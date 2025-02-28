@@ -19,7 +19,7 @@ def main():
       total+=randDice()
 
    avg=total/100
-   print(f"For 100 rolls, the average was {avg}")
+   print(f"For 100 rolls, the average was {avg: ,2f}")
 
 
 if __name__ == "__main__":
